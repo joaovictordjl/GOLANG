@@ -12,6 +12,7 @@ func main() {
 
 	auxiliar.Escrever()
 
+	//pacote externo para validação de email, explicação para importar estará abaixo(PE)
 	checkmail.ValidateFormat("victorjhon779@gmail.com")
 }
 
@@ -31,5 +32,15 @@ Após criar um módulo e escrever algum código, escreva no terminal:
 				./modulo
 
 
-Cada pacote precisa estar em uma pasta diferente, ou seja, sempre que for criar um pacote é necessário criar uma pasta para ele.				
+Cada pacote precisa estar em uma pasta diferente, ou seja, sempre que for criar um pacote é necessário criar uma pasta para ele.
+
+
+(PE) Importar Pacote Externo pelo terminal:
+
+	go get urlDoPacote 
+		
+		Após importar o pacote, ele deve ser adicionado na aba de import ()
+		Posteriormente, ele precisa ser chamado na função, ex:
+			checkmail.ValidateFormat("") que foi o caso que utilizamos
+
 */
