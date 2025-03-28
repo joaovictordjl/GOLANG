@@ -51,6 +51,15 @@ func main() {
 		
 		texto1 := "Texto aqui é uma string" 
 		fmt.Println(texto1)
-	
-	//GO NÃO TEM 'CHAR'
+
+
+	//BOOLEANO
+
+		var booleano bool = true
+		fmt.Println(booleano)
+
+	//ERRO TAMBÉM É UM TIPO
+
+		var erro error
+		fmt.Println(erro)
 }
