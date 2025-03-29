@@ -12,6 +12,7 @@ func main() {
 
 	auxiliar.Escrever()
 
+
 	//pacote externo para validação de email, explicação para importar estará abaixo(PE)
 	checkmail.ValidateFormat("victorjhon779@gmail.com")
 }
