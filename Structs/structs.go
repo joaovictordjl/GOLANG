@@ -18,7 +18,7 @@ func main() {
 			fmt.Println(usuario1)
 	//os dois valores que ela recebe, são respectivos dos valores criados no struct(nome e idade)
 
-		/*
+		/* 
 			QUANDO USAR: Quando precisar de mais de um tipo de dado para uma unica variável.
 			Como exeplificamos, precisavamos de um usuário e que armazenasse a idade e o nome dele
 		*/
