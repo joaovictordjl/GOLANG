@@ -7,6 +7,7 @@ import "fmt"
 type usuario struct {
 	nome string
 	idade uint
+	altura float32
 }
 
 func main() {
@@ -14,7 +15,7 @@ func main() {
 
 	//CRIAÇÃO DA VARIÁVEL COM O STRUCT CRIADO.
 		//o nome da variável é usuário1 e ela é do tipo usuario(struct)
-			usuario1 := usuario {"João", 22}
+			usuario1 := usuario {"João", 22, 1.76}
 			fmt.Println(usuario1)
 	//os dois valores que ela recebe, são respectivos dos valores criados no struct(nome e idade)
 
